@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71DA3A41E22B8D300D19511 /* Artifika-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F71DA3A21E22B8D300D19511 /* Artifika-Regular.ttf */; };
+		F71DA3A51E22B8D300D19511 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F71DA3A31E22B8D300D19511 /* Pacifico.ttf */; };
+		F71DA3A81E22BA9100D19511 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71DA3A71E22BA9100D19511 /* Constants.swift */; };
 		F7CE4AC41DFB2A80008F891F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE4AC31DFB2A80008F891F /* AppDelegate.swift */; };
 		F7CE4AC61DFB2A80008F891F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CE4AC51DFB2A80008F891F /* ViewController.swift */; };
 		F7CE4AC91DFB2A80008F891F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CE4AC71DFB2A80008F891F /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F71DA3A21E22B8D300D19511 /* Artifika-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Artifika-Regular.ttf"; sourceTree = "<group>"; };
+		F71DA3A31E22B8D300D19511 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		F71DA3A71E22BA9100D19511 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F7CE4AC01DFB2A7F008F891F /* UITextFieldsAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextFieldsAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CE4AC31DFB2A80008F891F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7CE4AC51DFB2A80008F891F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +41,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F71DA3A01E22AF1300D19511 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CE4ACF1DFB2A80008F891F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F71DA3A11E22B31700D19511 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F71DA3A21E22B8D300D19511 /* Artifika-Regular.ttf */,
+				F71DA3A31E22B8D300D19511 /* Pacifico.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F71DA3A61E22B9C000D19511 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F71DA3A71E22BA9100D19511 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		F71DA3A91E22BC8300D19511 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F7CE4AC31DFB2A80008F891F /* AppDelegate.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F71DA3AA1E22BC9E00D19511 /* UITextFields */ = {
+			isa = PBXGroup;
+			children = (
+				F7CE4AC51DFB2A80008F891F /* ViewController.swift */,
+			);
+			name = UITextFields;
+			sourceTree = "<group>";
+		};
 		F7CE4AB71DFB2A7E008F891F = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +101,14 @@
 		F7CE4AC21DFB2A7F008F891F /* UITextFieldsAppDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F7CE4AC31DFB2A80008F891F /* AppDelegate.swift */,
-				F7CE4AC51DFB2A80008F891F /* ViewController.swift */,
+				F71DA3AA1E22BC9E00D19511 /* UITextFields */,
+				F71DA3A91E22BC8300D19511 /* Main */,
+				F71DA3A61E22B9C000D19511 /* Constants */,
+				F71DA3A11E22B31700D19511 /* Resources */,
+				F71DA3A01E22AF1300D19511 /* Supporting Files */,
 				F7CE4AC71DFB2A80008F891F /* Main.storyboard */,
 				F7CE4ACA1DFB2A80008F891F /* Assets.xcassets */,
 				F7CE4ACC1DFB2A80008F891F /* LaunchScreen.storyboard */,
-				F7CE4ACF1DFB2A80008F891F /* Info.plist */,
 			);
 			path = UITextFieldsAppDemo;
 			sourceTree = "<group>";
@@ -124,7 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7CE4ACE1DFB2A80008F891F /* LaunchScreen.storyboard in Resources */,
+				F71DA3A51E22B8D300D19511 /* Pacifico.ttf in Resources */,
 				F7CE4ACB1DFB2A80008F891F /* Assets.xcassets in Resources */,
+				F71DA3A41E22B8D300D19511 /* Artifika-Regular.ttf in Resources */,
 				F7CE4AC91DFB2A80008F891F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +189,7 @@
 			files = (
 				F7CE4AC61DFB2A80008F891F /* ViewController.swift in Sources */,
 				F7CE4AC41DFB2A80008F891F /* AppDelegate.swift in Sources */,
+				F71DA3A81E22BA9100D19511 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +349,7 @@
 				F7CE4AD41DFB2A80008F891F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
